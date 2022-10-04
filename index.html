@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Anmeldung</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sign Up Now!</h1>
+        <p>Sign up now and tell us what you think</p>
+    </header>
+    <main>
+        <section>
+            <p>1</p>
+            <h2>First Name & Address</h2>
+            <article>
+                <label for="name">Your Full Name</label>
+                <input type="text" name="name" id="name" required placeholder="Max Muster">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address">
+            </article>
+        </section>
+        <section>
+            <p>2</p>
+            <h2>E-Mail & Phone</h2>
+            <article>
+                <label for="email">E-Mail Address</label>
+                <input type="email" name="email" id="email" placeholder="max@muster.com">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone">
+            </article>
+        </section>
+        <section>
+            <p>3</p>
+            <h2>Passwords</h2>
+            <article>
+                <label for="pw">Password</label>
+                <input type="password" name="pw" id="pw">
+                <label for="confirm">Confirm Password</label>
+                <input type="password" name="confirm" id="confirm">
+            </article>
+        </section>
+        <section class="bottom">
+            <input type="submit" value="submit">
+            <div>
+                <input type="checkbox" name="policy" id="policy">
+                <label for="policy">I agree to the terms of policy</label>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
